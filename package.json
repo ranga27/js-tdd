@@ -2,14 +2,18 @@
   "name": "js-tdd",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./src/**/*.test.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/register": "^7.24.6",
     "chai": "^5.1.1",
     "mocha": "^10.7.3"
   }
